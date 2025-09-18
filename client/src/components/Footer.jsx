@@ -24,9 +24,14 @@ export default function Footer() {
         <div>
           <h3 className="text-gray-700 font-semibold mb-2">Follow Us</h3>
           <div className="flex justify-center md:justify-start gap-3">
-            <a href="#" className="text-gray-500 hover:text-gray-700">🐦 Twitter</a>
-            <a href="#" className="text-gray-500 hover:text-gray-700">💼 LinkedIn</a>
-            <a href="#" className="text-gray-500 hover:text-gray-700">📷 Instagram</a>
+            <a 
+              href="https://www.linkedin.com/in/rohit-kumar-singh-98658a198/" 
+              target="_blank" 
+              rel="noopener noreferrer" 
+              className="text-gray-500 hover:text-gray-700"
+            >
+              💼 LinkedIn
+            </a>
           </div>
         </div>
       </div>
@@ -38,3 +43,6 @@ export default function Footer() {
     </footer>
   );
 }
+
+
+
