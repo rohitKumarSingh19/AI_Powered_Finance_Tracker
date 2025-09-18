@@ -6,8 +6,9 @@ import { getTransactions, addTransaction, uploadStatement } from "../controllers
 const router = express.Router();
 
 // Configure Multer (store files in 'uploads/' folder)
-const upload = multer({ dest: "uploads/" });
+// const upload = multer({ dest: "uploads/" });
 
+const upload = multer({ storage: multer.memoryStorage() });
 // Routes
 router.get("/", getTransactions);  // fetch all
 router.post("/", addTransaction);  // add manually
